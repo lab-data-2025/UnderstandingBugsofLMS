@@ -1,0 +1,1 @@
+new_stop_words = {'moodle','fix', 'group','groups', 'bug', 'unit tests', 'phpunit', 'fail', 'behat', 'tests', 'php', 'error', 'block','add', 'delete', 'report', 'reports', 'atto', 'fatal', 'role', 'repo', 'remove','error','errors','fails','failure'}

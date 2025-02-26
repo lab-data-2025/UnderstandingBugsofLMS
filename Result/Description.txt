@@ -1,0 +1,9 @@
+BugClassify.xlsx: The classification and proportion of bugs in these two LMS (Moodle and Sakai). (RQ1)
+
+LMS_Moodle_Bug_Classification_Results.xlsx: Information and categories of each bug in Moodle. (RQ1)
+
+LMS_Sakai_Bug_Classification_Results.xlsx: Information and categories of each bug in Sakai. (RQ1)
+
+Moodle_Bug_on_Component.xlsx, Sakai_Bug_on_Component.xlsx: Distribution of bugs on the LMS reference architecture. (RQ2)
+
+OT table.xlsx, LOCM table.xlsx, NOFM table.xlsx,Entropy table.xlsx, NOCP table.xlsx, NOC table.xlsx: Complexity of bug fixes in the LMS. (RQ3)

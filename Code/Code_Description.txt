@@ -1,0 +1,17 @@
+DataCollect_JIRAIssues_Moodle/Sakai.py: Collect issue (bug) data from the issue tracker (JIRA) for LMS.
+
+DataCollect_GitHubCommits_Moodle/Sakai.py: Collect commit data corresponding of bug fixing from GitHub.
+
+DataCleam_Moodle/Sakai.py: Remove duplicate data and conduct data cleaning.
+
+Embedding-Moodle/Sakai.py: Convert text into vectors needed for clustering input.
+
+Kmeans-Cluter-Moodle/Sakai.py: Use k-means for clustering, and perform thematic induction tasks on each text subset corresponding to the clusters using GPT-4o.
+
+Category_Transform_Moodle/Sakai.py: Convert clustering results into corresponding identifiers for 16 bug types.
+
+Module-Moodle/Sakai.py: Calculate the distribution of bugs on the LMS reference architecture. (RQ2)
+
+CalucateIndicators-Moodle/Sakai.py: Calculate the complexity of bug fixes. (RQ3)
+
+New_Stopwords_Moodle/Sakai.txt: Extract exclusive stop words used for embedding Moodle and Sakai based on multiple preliminary experimental processes.

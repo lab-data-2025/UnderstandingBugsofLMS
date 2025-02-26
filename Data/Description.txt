@@ -1,0 +1,16 @@
+LMS_Moodle_Bugs.sql, LMS_Sakai_Bugs.sql: 1) Bug data items collected from JIRA for LMS (Moodle and Sakai), specifically including: BugID (D1), BugKey (D2), BugSummary (D3), BugStatus (D4), BugResolution (D5), BugDescription (D6), BugCreateAt (D7), BugCloseAt (D8), and BugComments (D9). Additional data items(e.g., fixversions, priority) are provided to support further research; 2) The commits corresponding to bug fixes in LMS (Moodle and Sakai) from GitHub, specifically including: CommitSha (D10), CommittedDate (D11), CommitMessage (D12), CommitTotal (D13), Changefiles (D14), Files (D15), and BugKey(D2). Other data items(e.g., commitauthor, additions)  are provided for supporting the research.
+
+
+Intermediate results generated during the experiment, specifically: {
+
+Moodle_embedding_dimensions256.csv, Sakai_embedding_dimensions256.csv: Bug summary embedding vectors generated based on the ``text-embedding-3-large'' model.
+
+Moodle_OpenAI_BugCluter58_dim256.xlsx, Sakai_OpenAI_BugCluter52_dim256.xlsx: Clustering results after k-means++ clustering.
+
+Moodle_BugCluster_Type16.csv, Moodle_BugCluster_Type16.xlsx, Sakai_BugCluster_Type16.csv, Sakai_BugCluster_Type16.xlsx: Conversion of k-means clustering results into 16 corresponding bug types based on manual classification.
+
+Moodle_output_Indicators.xlsx, Sakai_output_Indicators.xlsx: Experimental results on the complexity of bug fixing for Moodle and Sakai (RQ3). }
+
+Moodle_Manualcluster_613_KappaValue.xlsx, Sakai_Manualcluster_599_KappaValue.xlsx: Randomly sample bug cases from Moodle and Sakai to calculate the Kappa coefficient for assessing the consistency of classification results, where the `manual_Cluster' column represents the manually labeled bug type.
+
+Moodle_Module and Files_Correspondence.xlsx, Sakai_Module and Files_Correspondence.xlsx: Correspondence table between project file directories of Moodle and Sakai and the components of the system reference architecture (RQ2).
